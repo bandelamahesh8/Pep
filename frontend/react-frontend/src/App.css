@@ -1,0 +1,48 @@
+.App {
+  min-height: 100vh;
+}
+
+.main-content {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.card-container {
+  padding: 2.5rem;
+  margin-top: 2rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.action-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.footer {
+  background: rgba(15, 23, 42, 0.8) !important;
+  backdrop-filter: blur(8px);
+  border-top: 1px solid var(--border-color);
+  padding: 1.5rem 0;
+  color: var(--text-muted);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
