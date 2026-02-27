@@ -51,7 +51,26 @@ graph LR
 
 ---
 
-## 🚀 Getting Started
+## �️ Technology Stack
+
+| Category            | Technology      | Usage                         |
+| :------------------ | :-------------- | :---------------------------- |
+| **Backend**         | Java 25         | Core Programming Language     |
+|                     | Spring Boot 2.x | RESTful API Framework         |
+|                     | Spring Data JPA | Database Abstraction & ORM    |
+|                     | H2 Database     | In-Memory Data Storage        |
+|                     | Maven           | Build & Dependency Management |
+| **Frontend**        | React JS        | Responsive UI Development     |
+|                     | React Router    | Navigation & Page Routing     |
+|                     | Axios           | Promise-based HTTP Client     |
+|                     | Bootstrap 4     | Responsive Grid System        |
+|                     | CSS3            | Advanced Glassmorphism UI     |
+| **Typography**      | Google Fonts    | "Outfit" Font Family          |
+| **Version Control** | Git             | Source Code Management        |
+
+---
+
+## �🚀 Getting Started
 
 ### Prerequisites
 
@@ -122,5 +141,3 @@ The "Advanced Level" UI was achieved using:
 - **Bootstrap 4**: Used for the layout grid system combined with custom CSS.
 
 ---
-
-Developed with ❤️ by Antigravity AI.
